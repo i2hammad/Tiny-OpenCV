@@ -25,7 +25,7 @@ Adjust the following variables to match your local setup. In this example, we’
 export OPENCV_SRC_FOLDER=~/Personal/opencv
 export OPENCV_BUILD_FOLDER=$OPENCV_SRC_FOLDER/build
 export ANDROID_SDK=~/Android/Sdk
-export ANDROID_NDK_HOME=$ANDROID_SDK/ndk/27.2.12479018
+export ANDROID_NDK_HOME=$ANDROID_SDK/ndk/28.0.12916984
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export TARGET_ABI=x86_64 # armeabi-v7a, arm64-v8a, x86, x86_64
 export API_LEVEL=26

@@ -14,7 +14,7 @@ In your app gradle:
 
     dependencies {
         ...
-        implementation 'com.github.Hazzatur:Tiny-OpenCV:4.11.0-1'
+        implementation 'com.github.Hazzatur:Tiny-OpenCV:4.11.0-2'
     }
 
 In your root gradle:

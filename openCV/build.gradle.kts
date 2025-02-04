@@ -81,8 +81,8 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.hazzatur"
-                artifactId = "TinyOpenCV"
-                version = "4.11.0"
+                artifactId = "Tiny-OpenCV"
+                version = "4.11.0-2"
             }
         }
     }
