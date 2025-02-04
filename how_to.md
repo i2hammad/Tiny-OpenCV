@@ -1,6 +1,6 @@
 # Building OpenCV Android SDK with NDK 28 for API Level 26
 
-This guide shows you how to build the OpenCV Android SDK (version 4.11.0) using NDK 28 for API level 26. The build produces a unified shared library **libopencv_java4.so** that contains the Java bindings along with only the **core**, **imgcodecs**, and **imgproc** modules.
+This guide shows you how to build the OpenCV Android SDK (version 4.11.0) using NDK 28 for API level 26. The build produces a unified shared library **libopencv_java4.so** that contains the Java bindings along with only the **core**, **imgproc**, and **java** modules.
 
 ---
 
@@ -41,7 +41,7 @@ Run the following CMake command. This command:
 - Uses the static C++ runtime.
 - Enables the unified Java library target (**BUILD_opencv_java=ON**).
 - Disables tests, performance tests, examples, and Android projects.
-- Limits the build to the **core**, **imgcodecs**, and **imgproc** modules.
+- Limits the build to the **core**, **imgproc**, and **java** modules.
 - Uses shared libraries overall (so the Java target is built as a shared library) with optimization flags.
 - Disables third-party dependencies like IPP, TBB, CUDA, and OpenCL.
 
