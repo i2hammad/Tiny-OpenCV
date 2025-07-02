@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.zynkware.tinyopencv"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.zynkware.tinyopencv"
-        minSdk = 26
-        targetSdk = 35
+        minSdk = 21
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"
 
@@ -49,6 +49,7 @@ android {
             path = File(projectDir, "libcxx_helper/CMakeLists.txt")
         }
     }
+    ndkVersion = "27.2.12479018"
 }
 
 dependencies {

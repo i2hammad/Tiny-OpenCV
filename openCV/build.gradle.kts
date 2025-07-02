@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "org.opencv"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
-        minSdk = 26
+        minSdk = 21
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         externalNativeBuild {
             cmake {
@@ -62,6 +62,7 @@ android {
             path = File(project.projectDir, "libcxx_helper/CMakeLists.txt")
         }
     }
+    ndkVersion = "27.2.12479018"
 }
 
 tasks.register<Jar>("sourceJar") {
@@ -80,9 +81,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.hazzatur"
+                groupId = "com.github.i2hammad"
                 artifactId = "Tiny-OpenCV"
-                version = "4.11.0-2"
+                version = "4.12.0"
             }
         }
     }
