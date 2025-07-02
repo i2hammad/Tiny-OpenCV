@@ -25,3 +25,5 @@ In your root gradle:
 		maven { url "https://jitpack.io" }
 	    }
 	}
+
+Latest Version: [![](https://jitpack.io/v/i2hammad/Tiny-OpenCV.svg)](https://jitpack.io/#i2hammad/Tiny-OpenCV)
